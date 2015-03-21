@@ -80,6 +80,9 @@ ZONE        = 10   # zone, loss zone (1-999)
 VMAX        = 11   # maxVm, maximum voltage magnitude (p.u.)
 VMIN        = 12   # minVm, minimum voltage magnitude (p.u.)
 
+# Re-purposed columns for fault analysis
+FAULT_MVA   = 11
+
 # included in opf solution, not necessarily in input
 # assume objective function has units, u
 LAM_P       = 13   # Lagrange multiplier on real power mismatch (u/MW)

@@ -84,6 +84,10 @@ RAMP_30     = 18   # ramp rate for 30 minute reserves (MW)
 RAMP_Q      = 19   # ramp rate for reactive power (2 sec timescale) (MVAr/min)
 APF         = 20   # area participation factor
 
+# Re-purposed columns for fault analysis
+RGEN        = 10
+XDPP        = 11
+
 # included in opf solution, not necessarily in input
 # assume objective function has units, u
 MU_PMAX     = 21   # Kuhn-Tucker multiplier on upper Pg limit (u/MW)
